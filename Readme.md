@@ -26,7 +26,28 @@ sudo chmod -R 755 /var/www/html && \
 sudo systemctl restart nginx && \
 sudo systemctl status nginx --no-pager
 ```
-6. Your website is now live from ip address
+6. Change Security Group
 
+Ensure the EC2 Security Group allows:
 
+| Type | Port |
+|--------|------|
+| SSH | 22 |
+| HTTP | 80 |
+| HTTPS | 443 (Optional) |
 
+7. Your website is now live from ip address
+
+## Tech Stack
+
+- AWS EC2
+- Ubuntu Linux
+- Nginx
+- HTML
+- CSS
+- JavaScript
+
+## Author
+
+**Ambika Baniya Bhandari**  
+AWS Cloud & IT Operations Enthusiast
